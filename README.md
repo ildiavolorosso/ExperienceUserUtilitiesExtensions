@@ -2,13 +2,13 @@
 Person Account-related extensions to the [ExperienceUserUtilities](https://github.com/ildiavolorosso/ExperienceUserUtilities) package.
 
 ## Introduction
-The [ExperienceUserUtilities](https://github.com/ildiavolorosso/ExperienceUserUtilities) package provides Flow-based utilities that allow common user administration tasks for Experience Cloud users to occur without leaving the Contact record in Lightning Experience. This allows administrators and agents to stay productive by staying out of Salesforce Setup.
+The [Experience User Utilities](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3u00000PuquwEAB) package provides Flow-based utilities that allow common user administration tasks for Experience Cloud users to occur without leaving the Contact record in Lightning Experience. This allows administrators and agents to stay productive by staying out of Salesforce Setup.
 
 But the base utility package does not include support for administering users from [Person Account](https://help.salesforce.com/apex/HTViewHelpDoc?id=sf.account_person.htm&language=en_US) records. This was done to avoid creating a dependency that would limit installation of that package to only orgs where Person Accounts are active. This package adds flows and actions for Person Account support.
 
 ## Prerequisites
 
-- Your Salesforce org must have the [ExperienceUserUtilities](https://github.com/ildiavolorosso/ExperienceUserUtilities) package installed.
+- Your Salesforce org must have the Experience User Utilities installed: [AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3u00000PuquwEAB) | [GitHub](https://github.com/ildiavolorosso/ExperienceUserUtilities)
 - Your Salesforce org must have [Person Accounts](https://help.salesforce.com/s/articleView?id=000328922&type=1) enabled.
 - Your Salesforce org must have at least one Lightning Record page (built using Lightning App Builder) dedicated to Person Accounts (see [these instructions](https://help.salesforce.com/s/articleView?id=000314811&type=1)).
 
