@@ -12,6 +12,9 @@ But the base utility package does not include support for administering users fr
 - Your Salesforce org must have [Person Accounts](https://help.salesforce.com/s/articleView?id=000328922&type=1) enabled.
 - Your Salesforce org must have at least one Lightning Record page (built using Lightning App Builder) dedicated to Person Accounts (see [these instructions](https://help.salesforce.com/s/articleView?id=000314811&type=1)).
 
+## Installation
+Install [this package](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GuGt3UAF) from the AppExchange.
+
 ## Post-Installation Configuration
 This package installs several items that complement the base Experience User Utilities:
 - Wrapper flows that handle resolution of the Person Account's Contact Id, then call the base utilities for User Details, Resetting Passwords, Freezing/Unfreezing a user, and Disable/Deactivate/Reactivate user.
